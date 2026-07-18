@@ -1,0 +1,119 @@
+name: Update profile cards
+
+on:
+  schedule:
+    # Actualización diaria a las 03:00 UTC
+    - cron: "0 3 * * *"
+
+  # Permite ejecutarlo manualmente desde Actions
+  workflow_dispatch:
+
+  # Se ejecuta al modificar este workflow
+  push:
+    paths:
+      - ".github/workflows/profile-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # ─────────────────────────────
+      # GitHub Stats
+      # ─────────────────────────────
+
+      - name: Generate dark stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_border=true&theme=default
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────
+      # Top Languages
+      # ─────────────────────────────
+
+      - name: Generate dark languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=github_dark
+          path: profile/languages-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=default
+          path: profile/languages-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────
+      # Featured Repository
+      # ─────────────────────────────
+
+      - name: Generate dark repository card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=monitoreo_etl&hide_border=true&theme=github_dark
+          path: profile/monitoreo-etl-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light repository card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=monitoreo_etl&hide_border=true&theme=default
+          path: profile/monitoreo-etl-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────
+      # Contribution Streak
+      # ─────────────────────────────
+
+      - name: Generate dark streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&locale=en&disable_animations=true
+          path: profile/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=default&hide_border=true&locale=en&disable_animations=true
+          path: profile/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ─────────────────────────────
+      # Save generated SVG files
+      # ─────────────────────────────
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+          git commit -m "Update profile cards" || exit 0
+          git push
