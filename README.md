@@ -1,224 +1,220 @@
 <div align="center">
 
-# Hey 👋, I'm PipeFck
+# PipeFck
 
-### Software developer building modern web applications, APIs and data-driven solutions.
+### Desarrollo sistemas que conectan datos, producto y operación
+
+Transformo procesos complejos en **APIs**, **automatizaciones**,  
+**productos de datos** e **interfaces útiles para las personas**.
+
+<br />
 
 <a href="https://github.com/PipeFck">
-  <img
-    src="https://img.shields.io/github/followers/PipeFck?label=Followers&style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub followers"
+  <img src="https://img.shields.io/badge/GitHub-PipeFck-181717?style=for-the-badge&logo=github&logoColor=white" alt="Perfil de GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/felipe-castillo-12310a358/">
+  <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Perfil de LinkedIn" />
+</a>
+<img src="https://img.shields.io/github/followers/PipeFck?style=for-the-badge&logo=github&label=Seguidores" alt="Seguidores en GitHub" />
+
+</div>
+
+---
+
+## 👨‍💻 Sobre mí
+
+Soy desarrollador de software con foco en sistemas donde los datos necesitan
+**moverse, validarse, transformarse y convertirse en decisiones o acciones**.
+
+Me interesa trabajar sobre el ciclo completo de una solución:
+
+- comprender el problema y modelar el dominio;
+- diseñar APIs, contratos e integraciones;
+- construir procesos de datos y automatizaciones;
+- crear reportes, paneles y flujos operativos;
+- desplegar, observar e iterar sobre el sistema.
+
+> Una parte importante de mi trabajo profesional vive en repositorios privados.
+> Este perfil muestra las capacidades, decisiones técnicas y áreas de trabajo que
+> he desarrollado, sin exponer información confidencial ni asociar mi identidad
+> a una empresa específica.
+
+---
+
+## 🧩 Mi perfil técnico
+
+<table>
+  <tr>
+    <td width="25%" valign="top">
+      <strong>🧠 Diseño de sistemas</strong>
+      <br /><br />
+      Modelado de dominio, separación de responsabilidades, contratos y evolución de arquitectura.
+    </td>
+    <td width="25%" valign="top">
+      <strong>⚙️ Backend y APIs</strong>
+      <br /><br />
+      Servicios mantenibles, lógica de negocio, GraphQL, integraciones y procesamiento.
+    </td>
+    <td width="25%" valign="top">
+      <strong>📊 Datos y reporting</strong>
+      <br /><br />
+      ETL, validación, transformación, observabilidad, métricas y productos de datos.
+    </td>
+    <td width="25%" valign="top">
+      <strong>🖥️ Producto interno</strong>
+      <br /><br />
+      Paneles, back office, flujos operativos y herramientas orientadas al usuario.
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🔄 Cómo convierto un problema en un sistema
+
+```mermaid
+flowchart LR
+    A["Problema real"] --> B["Modelo de dominio"]
+    B --> C{"Tipo de solución"}
+
+    C --> D["API y servicios"]
+    C --> E["Procesamiento de datos"]
+    C --> F["Interfaz operativa"]
+
+    D --> G["Contratos e integraciones"]
+    E --> H["Reportes y métricas"]
+    F --> I["Flujos de usuario"]
+
+    G --> J["Observabilidad"]
+    H --> J
+    I --> J
+
+    J --> K["Aprendizaje e iteración"]
+    K --> B
+```
+
+Mi objetivo no es agregar tecnología por agregarla, sino construir soluciones
+que sean **comprensibles, trazables, mantenibles y útiles**.
+
+---
+
+## 🛠️ Experiencia aplicada
+
+| Área | Qué construyo | Qué priorizo |
+|---|---|---|
+| **Sistemas de datos** | Procesos ETL, normalización, validaciones y monitoreo | Trazabilidad, calidad y recuperación ante errores |
+| **Backend** | APIs, servicios, reglas de negocio e integraciones | Contratos claros, mantenibilidad y evolución |
+| **Reporting** | Reportes, métricas y transformación de datos en información | Consistencia, contexto y utilidad |
+| **Producto operativo** | Paneles, back office y flujos internos | Claridad, velocidad y reducción de fricción |
+| **Automatización** | Tareas recurrentes, sincronizaciones y procesos asistidos | Confiabilidad, control y ahorro de trabajo manual |
+| **Entrega** | Cloud, control de versiones y automatización de workflows | Repetibilidad, visibilidad y mejora continua |
+
+---
+
+## 🧰 Tecnologías
+
+<div align="center">
+
+<img
+  src="https://skillicons.dev/icons?i=ts,nextjs,tailwind,graphql,nestjs,py,go,rust,aws,git,github&perline=6"
+  alt="TypeScript, Next.js, Tailwind CSS, GraphQL, NestJS, Python, Go, Rust, AWS, Git y GitHub"
+/>
+
+</div>
+
+<br />
+
+| Enfoque | Tecnologías y herramientas |
+|---|---|
+| **Producto e interfaz** | TypeScript, Next.js, Tailwind CSS, Storybook |
+| **Servicios y contratos** | NestJS, GraphQL, Python |
+| **Sistemas y rendimiento** | Go, Rust |
+| **Cloud y entrega** | AWS, Git, GitHub Actions |
+| **Datos** | ETL, modelado, validación, reporting y observabilidad |
+
+---
+
+## 🎯 En qué estoy profundizando
+
+- Arquitecturas orientadas a datos y dominios complejos.
+- Go y Rust para servicios y herramientas eficientes.
+- GraphQL como contrato entre producto y servicios.
+- Observabilidad de procesos, integraciones y pipelines.
+- Automatización de flujos técnicos y operativos.
+- Experiencias de usuario para productos internos.
+
+---
+
+## 📈 Actividad y evolución
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PipeFck&theme=github_dark"
   />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PipeFck&theme=github"
+  />
+  <img
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PipeFck&theme=github"
+    alt="Resumen de actividad de PipeFck"
+  />
+</picture>
+
+<br />
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=PipeFck&theme=react-dark&hide_border=true&area=true&custom_title=Actividad%20reciente"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=PipeFck&theme=github&hide_border=true&area=true&custom_title=Actividad%20reciente"
+  />
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=PipeFck&theme=github&hide_border=true&area=true&custom_title=Actividad%20reciente"
+    alt="Gráfico de actividad reciente de PipeFck"
+  />
+</picture>
+
+> Las visualizaciones anteriores se construyen con información pública de GitHub.
+> El trabajo realizado en repositorios privados puede no aparecer reflejado.
+
+---
+
+## 🧭 Principios que guían mi trabajo
+
+```text
+Claridad antes que complejidad.
+Datos trazables antes que resultados opacos.
+Contratos estables antes que acoplamiento.
+Automatización con control antes que automatización ciega.
+Producto útil antes que tecnología llamativa.
+```
+
+---
+
+## 🤝 Contacto
+
+<div align="center">
+
+¿Quieres conversar sobre arquitectura, backend, automatización o productos de datos?
+
+<br /><br />
+
+<a href="https://www.linkedin.com/in/felipe-castillo-12310a358/">
+  <img src="https://img.shields.io/badge/LinkedIn-Escríbeme-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Contactar por LinkedIn" />
+</a>
+<a href="https://github.com/PipeFck">
+  <img src="https://img.shields.io/badge/GitHub-Ver_trabajo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver perfil de GitHub" />
 </a>
 
-</div>
+<br /><br />
 
----
+<sub>Construyendo sistemas que hacen que los datos sean útiles.</sub>
 
-## 👨‍💻 About me
-
-- 💻 Software developer interested in modern web and backend development.
-- ⚙️ I enjoy building maintainable APIs, applications and data workflows.
-- 🧠 Currently improving my knowledge of Go, Rust, GraphQL and cloud architecture.
-- ☁️ Working with AWS and modern development tools.
-- 🚀 Always interested in learning, improving and solving complex problems.
-
----
-
-## 🛠️ Tech stack
-
-### Frontend
-
-<div align="center">
-
-  <img
-    src="https://skillicons.dev/icons?i=ts,nextjs,tailwind"
-    height="55"
-    alt="TypeScript, Next.js and Tailwind CSS"
-  />
-
-  <img width="12" />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg"
-    height="55"
-    alt="Storybook"
-  />
-
-  <img width="12" />
-
-  <img
-    src="https://skillicons.dev/icons?i=graphql"
-    height="55"
-    alt="GraphQL"
-  />
-
-</div>
-
-### Backend
-
-<div align="center">
-  <img
-    src="https://skillicons.dev/icons?i=nestjs,go,rust,py"
-    height="55"
-    alt="Backend technologies"
-  />
-</div>
-
-### Cloud
-
-<div align="center">
-  <img
-    src="https://skillicons.dev/icons?i=aws"
-    height="55"
-    alt="Cloud technologies"
-  />
-</div>
-
----
-
-## 📊 GitHub analytics
-
-<div align="center">
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./profile/stats-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./profile/stats-light.svg"
-    />
-    <img
-      width="49%"
-      src="./profile/stats-light.svg"
-      alt="PipeFck GitHub statistics"
-    />
-  </picture>
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./profile/languages-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./profile/languages-light.svg"
-    />
-    <img
-      width="49%"
-      src="./profile/languages-light.svg"
-      alt="Most used languages"
-    />
-  </picture>
-
-</div>
-
-<br />
-
-<div align="center">
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="./profile/streak-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="./profile/streak-light.svg"
-    />
-    <img
-      width="70%"
-      src="./profile/streak-light.svg"
-      alt="PipeFck GitHub contribution streak"
-    />
-  </picture>
-
-</div>
-
----
-
-## 🚀 Featured project
-
-<div align="center">
-
-  <a href="https://github.com/PipeFck/monitoreo_etl">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./profile/monitoreo-etl-dark.svg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./profile/monitoreo-etl-light.svg"
-      />
-      <img
-        width="55%"
-        src="./profile/monitoreo-etl-light.svg"
-        alt="monitoreo_etl repository"
-      />
-    </picture>
-  </a>
-
-</div>
-
-## 👾 My contribution graph
-
-<div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/PipeFck/PipeFck/output/pacman-contribution-graph-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/PipeFck/PipeFck/output/pacman-contribution-graph.svg"
-    />
-    <img
-      alt="Pac-Man contribution graph"
-      src="https://raw.githubusercontent.com/PipeFck/PipeFck/output/pacman-contribution-graph.svg"
-    />
-  </picture>
-</div>
-
----
-
-## 🤝 Connect with me
-
-<div align="center">
-
-  <a href="https://github.com/PipeFck">
-    <img
-      src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge"
-      height="30"
-      alt="GitHub"
-    />
-  </a>
-
-  <!-- Reemplaza TU_USUARIO por tu usuario real de LinkedIn -->
-  <a href="https://www.linkedin.com/in/felipe-castillo-12310a358/">
-    <img
-      src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge"
-      height="30"
-      alt="LinkedIn"
-    />
-  </a>
-
-
-  <!-- Reemplaza TU_EMAIL por tu correo -->
-  <a href="mailto:felipecastilloconcha@gmail.com">
-    <img
-      src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=EA4335&logoColor=white&style=for-the-badge"
-      height="30"
-      alt="Email"
-    />
-  </a>
-
-</div>
-
-<br />
-
-<div align="center">
-  <i>Thanks for visiting my profile!</i>
 </div>
