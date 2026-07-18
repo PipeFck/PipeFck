@@ -30,11 +30,29 @@
 ### Frontend
 
 <div align="center">
+
   <img
-    src="https://skillicons.dev/icons?i=ts,nextjs,tailwind,storybook,graphql"
+    src="https://skillicons.dev/icons?i=ts,nextjs,tailwind"
     height="55"
-    alt="Frontend technologies"
+    alt="TypeScript, Next.js and Tailwind CSS"
   />
+
+  <img width="12" />
+
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg"
+    height="55"
+    alt="Storybook"
+  />
+
+  <img width="12" />
+
+  <img
+    src="https://skillicons.dev/icons?i=graphql"
+    height="55"
+    alt="GraphQL"
+  />
+
 </div>
 
 ### Backend
@@ -62,30 +80,61 @@
 ## 📊 GitHub analytics
 
 <div align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=PipeFck&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true"
-    alt="PipeFck GitHub statistics"
-  />
 
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=PipeFck&layout=compact&langs_count=8&theme=transparent&hide_border=true"
-    alt="Most used languages"
-  />
-</div>
-
-<div align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com?user=PipeFck&theme=dark&hide_border=true"
+      srcset="./profile/stats-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./profile/stats-light.svg"
     />
     <img
-      src="https://streak-stats.demolab.com?user=PipeFck&theme=default&hide_border=true"
+      width="49%"
+      src="./profile/stats-light.svg"
+      alt="PipeFck GitHub statistics"
+    />
+  </picture>
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/languages-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./profile/languages-light.svg"
+    />
+    <img
+      width="49%"
+      src="./profile/languages-light.svg"
+      alt="Most used languages"
+    />
+  </picture>
+
+</div>
+
+<br />
+
+<div align="center">
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/streak-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="./profile/streak-light.svg"
+    />
+    <img
+      width="70%"
+      src="./profile/streak-light.svg"
       alt="PipeFck GitHub contribution streak"
     />
   </picture>
+
 </div>
 
 ---
@@ -93,15 +142,26 @@
 ## 🚀 Featured project
 
 <div align="center">
-  <a href="https://github.com/PipeFck/monitoreo_etl">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username=PipeFck&repo=monitoreo_etl&theme=transparent&hide_border=true"
-      alt="monitoreo_etl repository"
-    />
-  </a>
-</div>
 
----
+  <a href="https://github.com/PipeFck/monitoreo_etl">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="./profile/monitoreo-etl-dark.svg"
+      />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="./profile/monitoreo-etl-light.svg"
+      />
+      <img
+        width="55%"
+        src="./profile/monitoreo-etl-light.svg"
+        alt="monitoreo_etl repository"
+      />
+    </picture>
+  </a>
+
+</div>
 
 ## 👾 My contribution graph
 
