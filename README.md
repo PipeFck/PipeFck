@@ -4,9 +4,6 @@
 
 ### Desarrollo sistemas que conectan datos, producto y operación
 
-Transformo procesos complejos en **APIs**, **automatizaciones**,  
-**productos de datos** e **interfaces útiles para las personas**.
-
 <br />
 
 <div align="center">
